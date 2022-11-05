@@ -1,3 +1,27 @@
+const showMore=document.querySelector('#show_more'),
+      showLess=document.querySelector('#show_less')
+var a=0
+showMore.addEventListener('click',()=>{
+    if(a===0){
+        // showLess.style.display='flex'
+        showLess.style.visibility='visible'
+        showLess.style.margin='60px auto'
+        a=a+1
+    }else{
+        // showLess.style.display='none'
+        showLess.style.visibility='hidden'
+        let b=20
+        while (b>0){
+            b--
+            if(b===1){
+                showLess.style.margin='-45px auto'
+            }
+        }
+        // showLess.style.margin='-40px auto'
+        a=a-1
+    }
+})
+
 const swiper2 = new Swiper (".mySwiper-2",{
     autoplay : {
         delay:4000,

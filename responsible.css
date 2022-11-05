@@ -1,0 +1,259 @@
+@media all and (max-width:1467px) {
+    .product_container {
+        width: max-content;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width:1177px) {
+    .wheelchair {
+        grid-template-columns: 6fr;
+    }
+    .heading {
+        margin-top: 150px;
+        grid-template-columns: 6fr;
+    }
+    .about button {
+        margin-top: 60px;
+        text-align: center;   
+    }
+    .about {
+        text-align: center;
+    }
+
+}
+
+@media all and (max-width:1123px) {
+    .footer p {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:1450px) {
+    .team_container {
+        max-width: 1400px;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        margin: 120px auto;
+        gap: 30px;
+    }
+}
+
+@media all and (max-width:1395px) {
+    .team_container {
+        grid-template-columns: 3fr;
+    }
+    .team_card{
+        margin: 0 auto;
+    }
+    .team_card:nth-child(2){
+        margin-top: 20px;
+    }
+    .team_card:nth-child(3){
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-width:1136px) {
+    .head_end_img {
+        z-index: 5;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .head_end_img img{
+        width: 400px;
+    }
+    .head_end_letters {
+        z-index: 5;
+        margin-top: 200px;
+        margin-right: 30px;
+    }
+    .head_the_end {
+        margin-top: 100px;
+    }
+}
+
+@media all and (max-width:1065px) {
+    .head_container {
+        max-width: 900px;
+        gap: 160px;
+    }
+}
+
+@media all and (max-width:1171px) {
+    .wheelchair_text p {
+        margin: 10px 20px;
+    }
+    .heading_text p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media all and (max-width:1082px) {
+    .contact_second_step {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media all and (max-width:1013px) {
+    .contact_first_step {
+        max-width: 800px;
+        margin: 0 auto;
+        padding-top: 109px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media all and (max-width:989px) {
+    .nav_list {
+        gap: 20px;
+    }
+    .d textarea {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media all and (max-width:913px) {
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width:797px) {
+    .head_container {
+        max-width: 600px;
+        gap: 80px;
+    }
+    .head_end_letters {
+        margin-right: 40px;
+    }
+    .head_end_letters h1 {
+        font-size: 9rem;
+    }
+    .head_end_letters h1::before {
+        margin-left: -60px;
+        width: 300px;
+    }
+    .head_end_letters h1::after {
+        margin-left: -252px;
+        width: 300px;
+    }
+    .head_end_letters p {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+    .head_end_buttons {
+        gap: 20px;
+    }
+    .head_end_buttons button {
+        width: 120px;
+        height: 52px;
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width:807px) {
+    .c a {
+        font-size: 30px;
+    }
+    .c li{
+        font-size: 2.6rem;
+    }
+    .d textarea {
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media all and (max-width:809px){
+    .contact_first_step {
+        max-width: 600px;
+    }
+    .b {
+        gap: 30px;
+    }
+    .b svg{
+        width: 40px;
+    }
+}
+
+@media all and (max-height:755px) {
+    .head_the_end {
+        margin-top: 80px;
+    }
+}
+
+@media all and (max-height:740px) {
+    .head_the_end {
+        margin-top: 60px;
+    } 
+}
+
+@media all and (max-height:716px) {
+    .head_the_end {
+        margin-top: 40px;
+    } 
+}
+
+@media all and (max-height:693px) {
+    .head_the_end {
+        margin-top: 20px;
+    } 
+}
+
+@media all and (max-height:777px) {
+    .head_the_end {
+        margin-top: -20px;
+    } 
+}
+
+@media all and (max-height:750px) {
+    .head_end_img {
+        margin-top: 0px;
+    }    
+    .head_end_img img{
+        width: 400px;
+    }
+    .head_end_letters {
+        margin-top: 140px;
+    }
+    .head_the_end {
+        margin-top: 120px;
+    } 
+}
+
+@media all and (max-height:731px) {
+    .head_the_end {
+        margin-top: 100px;
+    } 
+}
+
+@media all and (max-height:710px) {
+    .head_the_end {
+        margin-top: 80px;
+    } 
+}
+
+@media all and (max-height:687px) {
+    .head_the_end {
+        margin-top: 60px;
+    } 
+}
+
+@media all and (max-height:673px) {
+    .nav_list {
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-height:665px) {
+    .head_the_end {
+        margin-top: 40px;
+    } 
+}

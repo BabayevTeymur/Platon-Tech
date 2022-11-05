@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="responsible.css">
     <title>Platon Tech</title>
 </head>
 
@@ -27,26 +28,30 @@
         </div>
         <div class="head_end">
             <div class="bg_shadow">
-                <div class="head_end_img">
-                    <img src="./img/hawking-intel1-removebg-preview 1.png" alt="">
-                </div>
-                <div class="head_end_letters">
-                    <h1>ABC</h1>
-                    <p>Amyotropic Brain Cube</p>
-                    <div class="head_end_buttons">
-                        <button>Login</button>
-                        <button>Sign Up</button>
+                <div class="head_display">
+                    <div class="head_end_img">
+                        <img src="./img/hawking-intel1-removebg-preview 1.png" alt="">
+                    </div>
+                    <div class="head_end_letters">
+                        <h1>ABC</h1>
+                        <p>Amyotropic Brain Cube</p>
+                        <div class="head_end_buttons">
+                            <button>Login</button>
+                            <button>Sign Up</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="head_the_end">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="18" viewBox="0 0 30 18" fill="none">
-                    <path d="M15 13.1655L28.0292 0.560349L30 2.47022L15 17.0277L0 2.47022L1.9708 0.560349L15 13.1655Z"
-                        fill="black" />
-                </svg>
+                <div class="head_the_end">
+                    <svg id="show_more" xmlns="http://www.w3.org/2000/svg" width="30" height="18" viewBox="0 0 30 18"
+                        fill="none">
+                        <path
+                            d="M15 13.1655L28.0292 0.560349L30 2.47022L15 17.0277L0 2.47022L1.9708 0.560349L15 13.1655Z"
+                            fill="black" />
+                    </svg>
+                </div>
             </div>
         </div>
-        <div class="head_container">
+        <div class="head_container" id="show_less">
             <div class="head_card">
                 <svg xmlns="http://www.w3.org/2000/svg" width="61" height="53" viewBox="0 0 61 53" fill="none">
                     <path
@@ -217,20 +222,20 @@
                     </div>
                     <div class="team_p">
                         <h3>Farid Shikhiyev</h2>
-                        <p>Co-Founder of Platon Tech</p>
-                        <p>Robotics engineer and 3D designer</p>
-                        <p>23faridk3@gmail.com</p>
+                            <p>Co-Founder of Platon Tech</p>
+                            <p>Robotics engineer and 3D designer</p>
+                            <p>23faridk3@gmail.com</p>
                     </div>
                 </div>
-                <div class="team_card team_card2">
+                <div class="team_card">
                     <div class="img">
                         <img src="./img/photo_5364301229880101570_y 1.png" alt="">
                     </div>
                     <div class="team_p">
                         <h3>Rufat Shikhiyev</h2>
-                        <p>Founder of Platon Tech</p>
-                        <p>AI,Python and Mobile developer</p>
-                        <p>rofamuslum@gmail.com</p>
+                            <p style="margin-top: 24px;">Founder of Platon Tech</p>
+                            <p>AI,Python and Mobile developer</p>
+                            <p>rofamuslum@gmail.com</p>
                     </div>
                 </div>
                 <div class="team_card">
@@ -239,9 +244,9 @@
                     </div>
                     <div class="team_p">
                         <h3>Gabil Huseynli</h2>
-                        <p>Co-Founder of Platon Tech</p>
-                        <p>Database administrator and C# developer</p>
-                        <p>qabilh98@gmail.com</p>
+                            <p>Co-Founder of Platon Tech</p>
+                            <p>Database administrator and C# developer</p>
+                            <p>qabilh98@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -279,10 +284,10 @@
                 <div class="contact_second_step">
                     <div class="c">
                         <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Team</li>
-                            <li>Contact Us</li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
                         </ul>
                         <ul style="display: flex; gap: 50px;">
                             <span>
@@ -306,7 +311,7 @@
                         </ul>
                     </div>
                     <div class="d">
-                        <textarea name="" id="" cols="40" rows="9" placeholder="Message..."></textarea>
+                        <textarea name="" id=""  placeholder="Message..."></textarea>
                     </div>
                 </div>
             </div>
