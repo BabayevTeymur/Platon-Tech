@@ -398,7 +398,7 @@ section h2 {
 }
 
 .contact_first_step {
-    max-width: 1000px;
+    max-width: 1600px;
     margin: 0 auto;
     padding-top: 109px;
     display: flex;
@@ -406,6 +406,7 @@ section h2 {
 }
 
 .b {
+    margin-right: 200px;
     margin-top: 30px;
     display: flex;
     gap: 59px;
