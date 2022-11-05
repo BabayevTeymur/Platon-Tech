@@ -42,3 +42,20 @@ const swiper2 = new Swiper (".mySwiper-2",{
         }
     }
 })
+
+const scrollUp=document.querySelector('.scroll_up')
+
+window.addEventListener('scroll',()=>{
+    if(window.scrollY>500){
+        scrollUp.style.display='flex'
+    }else{
+        scrollUp.style.display='none'
+    }
+})
+
+scrollUp.addEventListener('click',()=>{
+    window.scroll({
+        top:0,
+        behavior: "smooth"
+    })
+})

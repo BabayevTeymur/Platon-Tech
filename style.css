@@ -53,6 +53,10 @@ a {
     color: var(--black);
 }
 
+.hover_a:hover {
+    border-bottom: 2px solid black;
+}
+
 .nav_list button {
     background: var(--white);
     border: 2px solid var(--black);
@@ -429,7 +433,7 @@ section h2 {
     color: #FFFFFF;
 }
 
-.c li{
+.c li {
     font-size: 2.6rem;
     color: var(--white);
 }
@@ -495,7 +499,7 @@ footer {
     max-width: 430px;
 }
 
-.team_p{
+.team_p {
     margin-top: 30px;
 }
 
@@ -507,7 +511,7 @@ footer {
     line-height: 37px;
 }
 
-.team_p p{
+.team_p p {
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 700;
@@ -515,42 +519,44 @@ footer {
     line-height: 37px;
 }
 
-.team_card:nth-child(2){
+.team_card:nth-child(2) {
     margin-top: -60px;
 }
 
-.btn-12{
+.btn-12 {
     position: relative;
     right: 20px;
     bottom: 20px;
-    border:none;
+    border: none;
     box-shadow: none;
     width: 130px;
     height: 0px;
     line-height: 42px;
     -webkit-perspective: 230px;
     perspective: 230px;
-  }
-  .btn-12 span {
-    background: rgb(0,172,238);
-  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+}
+
+.btn-12 span {
+    background: rgb(0, 172, 238);
+    background: linear-gradient(180deg, rgba(143, 144, 147, 1) 0%, rgba(189, 190, 194, 1) 1%, rgba(153, 154, 157, 1) 45%, rgba(114, 114, 117, 1) 59%, rgba(0, 0, 0, 1) 88%);
     display: block;
     position: absolute;
     width: 130px;
     height: 40px;
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
     border-radius: 5px;
-    margin:0;
+    margin: 0;
     text-align: center;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-transition: all .3s;
     transition: all .3s;
-  }
-  .btn-12 span:nth-child(1) {
+}
+
+.btn-12 span:nth-child(1) {
     /* box-shadow:
      -7px -7px 20px 0px #fff9,
      -4px -4px 5px 0px #fff9,
@@ -562,34 +568,37 @@ footer {
     -webkit-transform-origin: 50% 50% -20px;
     -moz-transform-origin: 50% 50% -20px;
     transform-origin: 50% 50% -20px;
-  }
-  .btn-12 span:nth-child(2) {
+}
+
+.btn-12 span:nth-child(2) {
     -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
     transform: rotateX(0deg);
     -webkit-transform-origin: 50% 50% -20px;
     -moz-transform-origin: 50% 50% -20px;
     transform-origin: 50% 50% -20px;
-  }
-  .btn-12:hover span:nth-child(1) {
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+.btn-12:hover span:nth-child(1) {
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
     -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
     transform: rotateX(0deg);
-  }
-  .btn-12:hover span:nth-child(2) {
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-   color: transparent;
+}
+
+.btn-12:hover span:nth-child(2) {
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    color: transparent;
     -webkit-transform: rotateX(-90deg);
     -moz-transform: rotateX(-90deg);
     transform: rotateX(-90deg);
-  }
+}
 
-.custome_button  a{
+.custome_button a {
     position: relative;
     display: inline-block;
     padding: 25px 30px;
@@ -601,94 +610,132 @@ footer {
     letter-spacing: 4px;
     overflow: hidden;
     margin-right: 50px;
-   width: 200px;
-   text-align: center;
+    width: 200px;
+    text-align: center;
 }
-.custome_button a:hover{
+
+.custome_button a:hover {
     background: #03e9f4;
     color: #050801;
     box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                0 0 200px #03e9f4;
-     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 200px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
-.custome_button a:nth-child(1){
+
+.custome_button a:nth-child(1) {
     filter: hue-rotate(270deg);
 }
-.custome_button a:nth-child(2){
+
+.custome_button a:nth-child(2) {
     filter: hue-rotate(110deg);
 }
-.custome_button a span{
+
+.custome_button a span {
     position: absolute;
     display: block;
 }
-.custome_button a span:nth-child(1){
+
+.custome_button a span:nth-child(1) {
     top: 0;
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg,transparent,#03e9f4);
+    background: linear-gradient(90deg, transparent, #03e9f4);
     animation: animate1 1s linear infinite;
 }
-@keyframes animate1{
-    0%{
+
+@keyframes animate1 {
+    0% {
         left: -100%;
     }
-    50%,100%{
+
+    50%,
+    100% {
         left: 100%;
     }
 }
-.custome_button a span:nth-child(2){
+
+.custome_button a span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#03e9f4);
+    background: linear-gradient(180deg, transparent, #03e9f4);
     animation: animate2 1s linear infinite;
     animation-delay: 0.25s;
 }
-@keyframes animate2{
-    0%{
+
+@keyframes animate2 {
+    0% {
         top: -100%;
     }
-    50%,100%{
+
+    50%,
+    100% {
         top: 100%;
     }
 }
-.custome_button a span:nth-child(3){
+
+.custome_button a span:nth-child(3) {
     bottom: 0;
     right: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg,transparent,#03e9f4);
+    background: linear-gradient(270deg, transparent, #03e9f4);
     animation: animate3 1s linear infinite;
     animation-delay: 0.50s;
 }
-@keyframes animate3{
-    0%{
+
+@keyframes animate3 {
+    0% {
         right: -100%;
     }
-    50%,100%{
+
+    50%,
+    100% {
         right: 100%;
     }
 }
 
 
-.custome_button a span:nth-child(4){
+.custome_button a span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#03e9f4);
+    background: linear-gradient(360deg, transparent, #03e9f4);
     animation: animate4 1s linear infinite;
     animation-delay: 0.75s;
 }
-@keyframes animate4{
-    0%{
+
+@keyframes animate4 {
+    0% {
         bottom: -100%;
     }
-    50%,100%{
+
+    50%,
+    100% {
         bottom: 100%;
     }
+}
+
+.scroll_up {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    display: none;
+    right: 30px;
+}
+
+.scroll_up i {
+    font-size: 2rem;
+    color: white;
 }
